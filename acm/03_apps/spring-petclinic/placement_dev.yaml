@@ -2,11 +2,11 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   labels:
-    app: parksmap
-  name: parksmap-placement-ocp1
-  namespace: parksmap
+    app: spring-petclinic
+  name: spring-petclinic-placement-dev
+  namespace: zbtest-spring-petclinic
 spec:
   clusterSelector:
     matchLabels:
-      name: ocp1
+      name: local-dev
 

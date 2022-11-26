@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: parksmap
+  name: zbtest-parksmap
 ---
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: spring-petclinic
+  name: zbtest-spring-petclinic
 

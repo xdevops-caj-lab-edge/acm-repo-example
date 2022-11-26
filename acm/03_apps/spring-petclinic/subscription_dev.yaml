@@ -3,19 +3,19 @@ kind: Subscription
 metadata:
   annotations:
     apps.open-cluster-management.io/git-branch: main
-    apps.open-cluster-management.io/git-path: apps/spring-petclinic/overlays/ocp1
+    apps.open-cluster-management.io/git-path: apps/spring-petclinic/overlays/dev
     apps.open-cluster-management.io/reconcile-option: merge
   labels:
     app: spring-petclinic
     app.kubernetes.io/part-of: spring-petclinic
     apps.open-cluster-management.io/reconcile-rate: medium
-  name: spring-petclinic-subscription-ocp1
-  namespace: spring-petclinic
+  name: spring-petclinic-subscription-dev
+  namespace: zbtest-spring-petclinic
 spec:
   channel: >-
-    ggithubcom-xdevops-caj-lab-gitops-acm-repo-example-ns/ggithubcom-xdevops-caj-lab-gitops-acm-repo-example
+    ggithubcom-xdevops-caj-lab-edge-acm-repo-example-ns/ggithubcom-xdevops-caj-lab-edge-acm-repo-example
   placement:
     placementRef:
       kind: PlacementRule
-      name: spring-petclinic-placement-ocp1
+      name: spring-petclinic-placement-dev
 

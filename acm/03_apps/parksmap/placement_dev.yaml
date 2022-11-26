@@ -3,10 +3,10 @@ kind: PlacementRule
 metadata:
   labels:
     app: parksmap
-  name: parksmap-placement-hub
-  namespace: parksmap
+  name: parksmap-placement-dev
+  namespace: zbtest-parksmap
 spec:
   clusterSelector:
     matchLabels:
-      name: local-cluster
+      name: local-dev
 
