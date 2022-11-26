@@ -1,8 +1,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: ggithubcom-xdevops-caj-lab-edge-acm-repo-example
-  namespace: ggithubcom-xdevops-caj-lab-edge-acm-repo-example-ns
+  name: nsgitlabmindraycom-project36-bot1-acm-repo-example
+  namespace: nsgitlabmindraycom-project36-bot1-acm-repo-example-ns
 spec:
-  pathname: https://github.com/xdevops-caj-lab-edge/acm-repo-example.git
+  pathname: https://gitlab.mindray.com/project36_bot1/acm-repo-example.git
   type: Git

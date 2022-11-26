@@ -13,7 +13,7 @@ metadata:
   namespace: zbtest-parksmap
 spec:
   channel: >-
-    ggithubcom-xdevops-caj-lab-edge-acm-repo-example-ns/ggithubcom-xdevops-caj-lab-edge-acm-repo-example
+    nsgitlabmindraycom-project36-bot1-acm-repo-example-ns/nsgitlabmindraycom-project36-bot1-acm-repo-example
   placement:
     placementRef:
       kind: PlacementRule

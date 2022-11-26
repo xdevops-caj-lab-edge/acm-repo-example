@@ -3,19 +3,19 @@ kind: Subscription
 metadata:
   annotations:
     apps.open-cluster-management.io/git-branch: main
-    apps.open-cluster-management.io/git-path: apps/spring-petclinic/overlays/dev
+    apps.open-cluster-management.io/git-path: apps/parksmap/overlays/uat
     apps.open-cluster-management.io/reconcile-option: merge
   labels:
-    app: spring-petclinic
-    app.kubernetes.io/part-of: spring-petclinic
+    app: parksmap
+    app.kubernetes.io/part-of: parksmap
     apps.open-cluster-management.io/reconcile-rate: medium
-  name: spring-petclinic-subscription-dev
-  namespace: zbtest-spring-petclinic
+  name: parksmap-subscription-uat
+  namespace: zbtest-parksmap
 spec:
   channel: >-
     nsgitlabmindraycom-project36-bot1-acm-repo-example-ns/nsgitlabmindraycom-project36-bot1-acm-repo-example
   placement:
     placementRef:
       kind: PlacementRule
-      name: spring-petclinic-placement-dev
+      name: parksmap-placement-uat
 

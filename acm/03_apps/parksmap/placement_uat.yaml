@@ -1,0 +1,12 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  labels:
+    app: parksmap
+  name: parksmap-placement-uat
+  namespace: zbtest-parksmap
+spec:
+  clusterSelector:
+    matchLabels:
+      name: local-uat
+
