@@ -2,5 +2,14 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: nsgitlabmindraycom-project36-bot1-acm-repo-example-ns
-
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: zbtest-parksmap
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: zbtest-spring-petclinic
 
