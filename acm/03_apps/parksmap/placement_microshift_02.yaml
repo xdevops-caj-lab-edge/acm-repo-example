@@ -1,0 +1,12 @@
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  labels:
+    app: parksmap
+  name: parksmap-placement-microshift-02
+  namespace: zbtest-parksmap
+spec:
+  clusterSelector:
+    matchLabels:
+      name: microshift-02
+
