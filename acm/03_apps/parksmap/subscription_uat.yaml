@@ -13,7 +13,7 @@ metadata:
   namespace: zbtest-parksmap
 spec:
   channel: >-
-    nsgitlabmindraycom-project36-bot1-acm-repo-example-ns/nsgitlabmindraycom-project36-bot1-acm-repo-example
+    zbtest-acm-repo-example/acm-repo-example
   placement:
     placementRef:
       kind: PlacementRule

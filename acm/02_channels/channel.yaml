@@ -1,8 +1,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: nsgitlabmindraycom-project36-bot1-acm-repo-example
-  namespace: nsgitlabmindraycom-project36-bot1-acm-repo-example-ns
+  name: acm-repo-example
+  namespace: zbtest-acm-repo-example
 spec:
   pathname: https://gitlab.mindray.com/project36_bot1/acm-repo-example.git
   type: Git
