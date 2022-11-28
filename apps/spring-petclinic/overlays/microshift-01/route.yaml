@@ -7,7 +7,7 @@ metadata:
 spec:
   port:
     targetPort: 8080-tcp
-  host: spring-petclinic-zbtest-spring-petclinic.apps.microshift01.ocp.mindray.com
+  host: spring-petclinic-zbtest-spring-petclinic.apps.microshift01.ocp.example.com
   to:
     kind: Service
     name: spring-petclinic

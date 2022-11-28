@@ -3,5 +3,5 @@ kind: Route
 metadata:
   name: parksmap
 spec:
-  host: parksmap-zbtest-parksmap.apps.microshift02.ocp.mindray.com
+  host: parksmap-zbtest-parksmap.apps.microshift02.ocp.example.com
 

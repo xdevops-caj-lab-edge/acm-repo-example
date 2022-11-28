@@ -4,5 +4,5 @@ metadata:
   name: acm-repo-example
   namespace: zbtest-acm-repo-example
 spec:
-  pathname: https://gitlab.mindray.com/project36_bot1/acm-repo-example.git
+  pathname: https://github.com/xdevops-caj-lab-edge/acm-repo-example.git
   type: Git
