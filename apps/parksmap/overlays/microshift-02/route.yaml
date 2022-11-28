@@ -11,8 +11,6 @@ metadata:
 spec:
   port:
     targetPort: 8080-tcp
-  tls:
-    termination: edge
   host: parksmap-zbtest-parksmap.apps.microshift02.ocp.mindray.com
   to:
     kind: Service
