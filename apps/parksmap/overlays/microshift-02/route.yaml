@@ -1,5 +1,5 @@
 spec:
-  host: parksmap-zbtest-parksmap.apps.microshift02.ocp.mindray.com
+  host: parksmap-zbtest-parksmap.microshift02.edge.com
   tls:
     termination: none
 
